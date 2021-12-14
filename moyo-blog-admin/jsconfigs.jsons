@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@Images/*": ["./src/images/*"],
+            "@AttachedFiles/*" : ["./src/images/attached-files/*"],
+            "@BrandsImages/*" : ["./src/images/brands/*"],
+            "@CompaniesImages/*" : ["./src/images/companies/*"],
+            "@EmailImages/*" : ["./src/images/email/*"],
+            "@GalleryImages/*" : ["./src/images/gallery/*"],
+            "@SmallImages/*" : ["./src/images/small/*"],
+            "@UsersImages/*" : ["./src/images/users/*"]
+        }
+    },
+    "include": ["src"]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "moyo-blog",
+  "version": "1.0.0",
+  "description": "A blogging application for Moh",
+  "main": "moyo-blog-server/dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieloseni/moyo-blog.git"
+  },
+  "author": "Daniel Oseni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieloseni/moyo-blog/issues"
+  },
+  "homepage": "https://github.com/danieloseni/moyo-blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@types/react-draft-wysiwyg": "^1.13.3"
+  }
+}
